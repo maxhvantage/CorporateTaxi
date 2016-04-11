@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.corporatetaxi.TripHistory_Activity">
+    <!--<item-->
+        <!--android:id="@+id/action_notification"-->
+        <!--android:icon="@drawable/notification"-->
+        <!--android:orderInCategory="2"-->
+        <!--android:title="@string/action_notify"-->
+        <!--app:showAsAction="always" />-->
+    <item
+        android:id="@+id/action_fielter"
+        android:icon="@drawable/filter"
+        android:orderInCategory="1"
+        android:title="@string/action_fielter"
+        app:showAsAction="always" />
+</menu>

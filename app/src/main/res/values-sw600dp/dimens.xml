@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--image-->
+    <dimen name="camera_image_height">240dp</dimen>
+    <dimen name="camera_image_width">230dp</dimen>
+    <dimen name="user_image_height_width">150dp</dimen>
+    <dimen name="user_image_height_width_small">90dp</dimen>
+    <dimen name="search_icon_size">27dp</dimen>
+    <dimen name="account_icon_size">50dp</dimen>
+    <dimen name="right_icon_size">35dp</dimen>
+    <dimen name="search_size">40dp</dimen>
+    <!--Button-->
+    <dimen name="camera_button_height">130dp</dimen>
+    <dimen name="camera_button_width">250dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="toggle_button_width">90dp</dimen>
+    <dimen name="toggle_button_height">53dp</dimen>
+
+
+    <!--TextSize-->
+    <dimen name="large_text_size">39dp</dimen>
+    <dimen name="normal_text_size">21dp</dimen>
+    <dimen name="small_text_size">23dp</dimen>
+    <dimen name="normal_text_size_new">30dp</dimen>
+    <dimen name="more_small_text_size">20dp</dimen>
+    <dimen name="msg_text_height">250dp</dimen>
+    <dimen name="recon_text_height">300dp</dimen>
+    <dimen name="more_large_text_size">40dp</dimen>
+
+
+    <!--Margins-->
+    <dimen name="margin1">10dp</dimen>
+    <dimen name="margin2">20dp</dimen>
+    <dimen name="margin3">30dp</dimen>
+    <dimen name="margin4">40dp</dimen>
+    <dimen name="margin5">55dp</dimen>
+    <dimen name="margin6">60dp</dimen>
+    <dimen name="margin7">90dp</dimen>
+    <dimen name="margin_grid">30dp</dimen>
+    <dimen name="picture_grid_size">220dp</dimen>
+
+    <!--Layout-->
+    <dimen name="linear_layout_height">160dp</dimen>
+    <dimen name="profile_image_height_width">150dp</dimen>
+    <dimen name="drawer_layout_height">200dp</dimen>
+    <dimen name="nav_drawer_width">380dp</dimen>
+
+
+    <dimen name="margin_large">30dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_small">15dp</dimen>
+
+    <dimen name="text_size_small">25dp</dimen>
+    <dimen name="text_size_normal">27dp</dimen>
+    <dimen name="text_size_large">35dp</dimen>
+
+    <dimen name="tab_height">70dp</dimen>
+    <dimen name="history_edit_height">120dp</dimen>
+
+    <dimen name="desc_images_size">60dp</dimen>
+    <dimen name="history_images_height">85dp</dimen>
+    <dimen name="history_images_width">185dp</dimen>
+    <dimen name="add_buyers_height">40dp</dimen>
+
+    <dimen name="bid_detail_height">180dp</dimen>
+
+    <dimen name="spinner_linear_layout">80dp</dimen>
+
+</resources>

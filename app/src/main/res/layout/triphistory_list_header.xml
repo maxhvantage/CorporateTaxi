@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/header_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="History"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorblack"
+        android:textStyle="bold" />
+
+</RelativeLayout>

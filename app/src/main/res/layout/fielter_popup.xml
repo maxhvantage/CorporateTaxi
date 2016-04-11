@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pop_up_element"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:foregroundGravity="center">
+
+        <ImageView
+            android:id="@+id/flyimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/blackflt" />
+
+        <TextView
+            android:id="@+id/popup_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/flyimage"
+            android:layout_toEndOf="@+id/flyimage"
+            android:layout_toRightOf="@+id/flyimage"
+            android:text="@string/prompt_fielter"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorblack"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/boundry"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/popup_text"
+            android:layout_marginTop="10dp"
+            android:background="@color/inputtypecolor" />
+
+        <EditText
+            android:id="@+id/from_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/boundry"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@android:drawable/edit_text"
+            android:drawableRight="@drawable/calendar"
+            android:editable="false"
+            android:focusableInTouchMode="false"
+            android:hint="From" />
+
+        <EditText
+            android:id="@+id/to_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/from_date"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@android:drawable/edit_text"
+            android:drawableRight="@drawable/calendar"
+            android:editable="false"
+            android:focusableInTouchMode="false"
+            android:hint="To" />
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/to_date"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:mrl_rippleBackground="@color/colorPrimary"
+            app:mrl_rippleColor="@color/black">
+
+            <Button
+                android:id="@+id/btn_filter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:text="@string/prompt_fieltertwo"
+                android:textColor="@color/textbuttoncolor"
+                android:textSize="@dimen/normal_text_size"
+                android:textStyle="bold" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+    </RelativeLayout>
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        app:mrl_rippleBackground="#fff"
+        app:mrl_rippleColor="@color/black">
+
+        <ImageButton
+            android:id="@+id/cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:src="@drawable/crossblack" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</RelativeLayout>

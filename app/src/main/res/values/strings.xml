@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">Taxi Central Corporativo</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_notify">Notificaciones</string>
+    <string name="action_fielter">Filtro</string>
+    <string name="title_activity_splash_screen">Registro</string>
+    <string name="title_activity_register">Registro</string>
+    <string name="title_activity_signup">Registro</string>
+    <string name="title_activity_login">Iniciar Sesión</string>
+    <string name="title_activity_showtaxi">Taxi Central</string>
+    <string name="title_activity_home">Inicio</string>
+    <string name="gps_alert">GPS no disponible. Debes encenderlo en ajustes</string>
+    <string name="gps_setting">Ajustes</string>
+    <string name="gps_settingg">Ajustes GPS</string>
+    <string name="title_activity_destination_zone">SELECCIONE SU DESTINO</string>
+
+    <!-- Strings related to Register && RrequestTaxi -->
+    <string name="prompt_name">NOMBRE COMPLETO</string>
+    <string name="prompt_phone">TELEFONO</string>
+    <string name="prompt_email">EMAIL</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_repaasword">Repetir contraseña</string>
+    <string name="action_register">Enviar</string>
+    <string name="action_signup">REGISTRAR</string>
+    <string name="prompt_street">Calle</string>
+    <string name="prompt_streetnumber">N° Puerta</string>
+    <string name="prompt_tripdate">DD/MM/YYYY</string>
+    <string name="prompt_triptime">HH:MM:SS</string>
+    <string name="prompt_source">CALLE</string>
+    <string name="prompt_destination">DESTINO</string>
+    <string name="prompt_description">DESCRIPCIÓN</string>
+    <string name="prompt_selectcompany">SELECCIONAR CENTRAL</string>
+    <string name="prompt_fromdate">DD/MM/YYYY</string>
+    <string name="prompt_todate">DD/MM/YYYY</string>
+    <string name="prompt_fielter">Filtros</string>
+    <string name="prompt_fieltertwo">Filtro</string>
+    <string name="prompt_changepassword">Cambiar contraseña</string>
+    <string name="prompt_savepassword">Guardar contraseña</string>
+    <string name="prompt_savechange">Guardar cambios</string>
+    <string name="prompt_panictext">La alerta ya ha sido enviada a la central</string>
+    <string name="prompt_panictexttwo">Indica la razón de la alerta</string>
+    <string name="prompt_sendmesssage">ENVIAR MENSAJE</string>
+    <string name="prompt_sendmesssagee">Enviar mensaje</string>
+    <string name="prompt_emailverify">Verificación email</string>
+    <string name="promt_reasoncanceltaxi">Indica la razón por la cual cancelastes el pedido</string>
+    <string name="promt_reasonpanictaxi">Indica la razón de la alerta</string>
+    <string name="prompt_cancelar">Cancelar</string>
+    <string name="prompt_acceptor">ACCEPTAR</string>
+    <string name="prompt_send">ENVIAR</string>
+    <string name="prompt_call">LLAMAR</string>
+    <string name="prompt_canceltaxi">Cancelar Taxi</string>
+    <string name="prompt_cancel">CANCELAR</string>
+    <string name="prompt_canceltaxione">No puedo esperar más</string>
+    <string name="prompt_canceltaxione_for_api">No puedo esperar más</string>
+    <string name="prompt_cancel_reason_two">Voy a probar otra central</string>
+    <string name="prompt_cancel_reason_three">Veo pocos taxis</string>
+    <string name="prompt_messageone">Estoy esperando</string>
+    <string name="prompt_messagetwo">Ven lo antes posible</string>
+    <string name="prompt_messagethree">Me estoy preparando</string>
+    <string name="prompt_rate_exp_one">El taxi ha chocado</string>
+    <string name="prompt_rate_exp_two">Estamos yendo en dirección opuesta</string>
+    <string name="prompt_rate_exp_three">El conductor esta ebrio</string>
+    <string name="prompt_alreadyboared">Ya abordado</string>
+    <string name="prompt_canceltaxitwo">Voy a probar otra central</string>
+    <string name="prompt_canceltaxithree">Veo muy pocos taxis</string>
+    <string name="prompt_panicone">El taxi ha chocado</string>
+    <string name="prompt_panictwo">Estamos yendo en dirección opuesta</string>
+    <string name="prompt_panicthree">El conductor esta ebrio</string>
+    <string name="prompt_skip">Saltear</string>
+    <string name="prompt_panic">Panico</string>
+    <string name="prompt_rate">Calificar</string>
+    <string name="prompt_delete">Borrar</string>
+    <string name="prompt_rateeptext">Recuerda que la calificación es anónima</string>
+    <string name="prompt_ratetext">CALIFICAR</string>
+    <string name="prompt_taxionway">TAXI EN CAMINO</string>
+    <string name="prompt_taxiarrived">TAXI HA LLEGADO</string>
+    <string name="prompt_login">Iniciar Sesión</string>
+    <string name="prompt_forgottxt">Olvidó contraseña ?</string>
+    <string name="prompt_message_one">Estoy esperando</string>
+    <string name="prompt_message_two">Ven lo antes posible</string>
+    <string name="prompt_message_three">Me estoy preparando</string>
+    <string name="prompt_register">Registrar</string>
+    <string name="action_sign_in_short">Iniciar Sesión</string>
+    <string name="error_invalid_email">Este email es inválido</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="error_field_required_length">Numero teléfono inválido</string>
+    <string name="error_field_password_lenght">La contraseña debe ser de mínimo 6 caracteres</string>
+    <string name="error_dont_match_password">Las contraseñas no son iguales</string>
+    <string name="permission_rationale">El permiso es necesario para el funcionamiento de la aplicación</string>
+    <string name="permission_rationablerequest">El permiso es requerido</string>
+    <string name="title_activity_request_taxi">Solicitar Taxi</string>
+    <string name="title_activity_cancelrequest_taxi">TAXI CANCELADO</string>
+    <string name="action_sign_in">Iniciar sesión o registrarse</string>
+    <string name="action_confirm">CONFIRMAR</string>
+    <string name="gcm_unregistered">UnRegistration</string>
+    <string name="gcm_deleted">DeviceDeleted</string>
+    <string name="gcm_error">Error</string>
+    <string name="gcm_recoverable_error">Recoverable Error</string>
+    <string name="server_registering">DeviceRegister</string>
+    <string name="server_register_error">Error de registro</string>
+    <string name="server_unregistered">Error de registro</string>
+    <string name="network_error">Por favor revisa la conexión a internet</string>
+    <string name="driver_nothere">No hay taxi disponible en tu área</string>
+    <string name="payment_check">No tienes suficiente crédito para este viaje, deseas pagar en efectivo?</string>
+    <string name="no_data">Datos no encontrados</string>
+    <string name="progressmsg">Por favor espere...</string>
+    <string name="loading">Cargando...</string>
+    <string name="cancel_trip">Cancelar viaje</string>
+    <string name="cancel">Cancelar</string>
+    <string name="prompt_log_out">Quieres cerrar la sesión desde la aplicación ?</string>
+    <string name="alert">Alerta !</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="service_not_available">Nuestro servicio no está disponible en esta área</string>
+
+
+    <string-array name="company_name">
+        <item>Central 1</item>
+        <item>Central 2</item>
+        <item>Central 3</item>
+        <item>Central 4</item>
+        <item>Central 5</item>
+    </string-array>
+
+    <string name="title_activity_cancel_taxi">Mapa</string>
+    <string name="title_activity_cancel_request">Mapa</string>
+    <string name="title_activity_show_taxi__in_map">ShowTaxi_InMap</string>
+    <string name="title_activity_trip_history_">Historial Viajes</string>
+    <string name="title_activity_fielter_">Filtros</string>
+    <string name="title_activity_notification">Notificaciones</string>
+    <string name="title_activity_myprofile">Mi Perfil</string>
+    <string name="title_activity_changepassword_">Cambias contraseña</string>
+    <string name="title_activity_panic">Panico</string>
+    <string name="title_activity_panichead">PANICO</string>
+    <string name="title_activity_taxionway">Taxi en camino</string>
+    <string name="title_activity_taxiarrived">Taxi arrivado</string>
+    <string name="title_activity_taxidetail">Taxi detalle</string>
+    <string name="title_activity_rateexperience">Califica experiencia</string>
+    <string name="title_activity_tripdetail">Detalle viaje</string>
+    <string name="title_activity_registerlogin">Registro &amp; Login</string>
+    <string name="title_activity_taxicancel">Taxi cancelado</string>
+    <string name="title_activity_textone">Iniciando sesión estas de acuerdo con los términos y condiciones de Taxi Central</string>
+    <string name="title_activity_texttwo">Términos y Condiciones</string>
+    <string name="title_activity_texthree">Política de privacidad</string>
+    <string name="title_activity_textfourth">Política de contenido</string>
+    <string name="title_activity_textfifth">y</string>
+    <string name="title_activity_emailhint">ingresa email</string>
+
+
+    <string name="action_payment">Pagos</string>
+    <string name="prompt_username">Nombre usuario</string>
+    <string name="prompt_sourcelandmark">ZONA ORIGEN</string>
+    <string name="prompt_destinationlandmark">ZONA DESTINO</string>
+    <string name="prompt_pay">PAGO CON CREDITO</string>
+    <string name="prompt_paycash">PAGO EFECTIVO</string>
+
+
+
+    <string name="prompt_taxicompany">Taxi central:-</string>
+    <string name="prompt_destinationadd">Destino agregar:-</string>
+    <string name="prompt_payy">Total Pagar:-</string>
+    <string name="no_driver">Vaya ningún controlador..</string>
+    <string name="id_paasword_no">Identificación o contraseña que no se repite</string>
+
+
+
+    <string name="title_activity_demo">DemoActivity</string>
+    <string name="title_activity_colonies_list">Colonies</string>
+    <string name="title_activity_colonies_detail">Colonies Detail</string>
+
+    <string name="prompt_hintdestination">Tap and search destination address</string>
+    <string name="prompt_company">My company:-</string>
+    <string name="prompt_ok">OK</string>
+    <string name="title_activity_destination_taxi">Select Destination</string>
+    <string name="action_destination">Destination Zone</string>
+    <string name="prompt_cancel_reason_one">Cant wait any longer</string>
+
+    //////////////drawer string//////////////
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    <string-array name="nav_drawer_labels">
+        <item>Solicitar taxi</item>
+        <item>Historial viajes</item>
+        <item>Mi perfil</item>
+        <item>Colonias</item>
+        <item>Cerrar Sesión</item>
+    </string-array>
+
+
+</resources>

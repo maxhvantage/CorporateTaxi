@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pop_up_element"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:foregroundGravity="center">
+
+        <ImageView
+            android:id="@+id/flyimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/flyblack" />
+
+        <TextView
+            android:id="@+id/popup_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/flyimage"
+            android:layout_toEndOf="@+id/flyimage"
+            android:layout_toRightOf="@+id/flyimage"
+            android:text="@string/prompt_sendmesssage"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorblack"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/boundry"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/popup_text"
+            android:background="@color/inputtypecolor" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/boundry"
+            android:layout_margin="@dimen/activity_vertical_margin">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/boundry"
+                android:checked="true"
+                android:padding="@dimen/Padding"
+                android:text="@string/prompt_messageone"
+                android:textColor="@color/colorblack"
+                android:textColorHint="#b4b4b4"
+                android:textSize="@dimen/text_size" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioButton1"
+                android:padding="@dimen/Padding"
+                android:text="@string/prompt_messagetwo"
+                android:textColor="@color/colorblack"
+                android:textColorHint="#b4b4b4"
+                android:textSize="@dimen/text_size" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioButton2"
+                android:padding="@dimen/Padding"
+                android:text="@string/prompt_messagethree"
+                android:textColor="@color/colorblack"
+                android:textColorHint="#b4b4b4"
+                android:textSize="@dimen/text_size" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radiogroup"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_top_margin"
+                android:layout_weight="1"
+                app:mrl_rippleBackground="@color/colorPrimary"
+                app:mrl_rippleColor="@color/black">
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@null"
+                    android:padding="@dimen/Padding"
+                    android:text="@string/prompt_cancel"
+                    android:textColor="@color/textbuttoncolor"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_top_margin"
+                android:layout_weight="1"
+                app:mrl_rippleBackground="@color/colorPrimary"
+                app:mrl_rippleColor="@color/black">
+
+                <Button
+                    android:id="@+id/btn_acceptor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@null"
+                    android:padding="@dimen/Padding"
+                    android:text="@string/prompt_send"
+                    android:textColor="@color/textbuttoncolor"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+            </com.balysv.materialripple.MaterialRippleLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_alignTop="@+id/r1"
+        app:mrl_rippleBackground="#fff"
+        app:mrl_rippleColor="@color/black">
+
+        <ImageButton
+            android:id="@+id/cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="10dp"
+            android:src="@drawable/crossblack" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</RelativeLayout>

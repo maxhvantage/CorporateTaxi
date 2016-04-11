@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/from_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/container_toolbar"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:drawableRight="@android:drawable/ic_menu_my_calendar"
+        android:editable="false"
+        android:focusableInTouchMode="false"
+        android:hint="From" />
+
+    <EditText
+        android:id="@+id/to_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/from_date"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:drawableRight="@android:drawable/ic_menu_my_calendar"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:editable="false"
+        android:focusableInTouchMode="false"
+        android:hint="To" />
+
+    <Button
+        android:id="@+id/btn_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/prompt_fielter" />
+
+</RelativeLayout>

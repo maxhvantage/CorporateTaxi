@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFD200</color>
+    <color name="colorPrimaryDark">#FFD200</color>
+    <color name="colorAccent">#131313</color>
+    <color name="colorText">#FFD200</color>
+    <color name="colorblack">#000</color>
+    <color name="colorwhite">#fff</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorbutton">#FFD200</color>
+    <color name="drawercolor">#aa000000</color>
+    <color name="inputtypecolor">#989898</color>
+    <color name="textbuttoncolor">#0f0f0f</color>
+    <color name="activelinkfont">#212121</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="backlayout">#e9e7e7</color>
+</resources>
